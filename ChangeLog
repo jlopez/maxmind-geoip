@@ -1,5 +1,19 @@
+1.2.5	2011-05-10
+	* Remove Confidence and Accuracy Database it is unsued anyway. ( Boris
+		Zentner )
+	* Add new methods enable_teredo, teredo, time_zone_by_country_and_region
+		and lib_version ( Boris Zentner )
+	* Add support for Confidence and Accuracy Database.
+	* Add support for Netspeed Database. via:
+		id_by_addr
+		id_by_name
+	* Add IPv6 glue *** needs libGeoIP 1.4.7 ***
+		country_code_by_name_v6	
+		country_name_by_name_v6
+		country_code_by_addr_v6
+		country_name_by_addr_v6 ( Boris Zentner )
 1.2.4	2008-12-16
-	* Add charset and set_charset methods , as well as 
+	* Add charset and set_charset methods, as well as 
 		the new attributes GeoIP.GEOIP_CHARSET_ISO_8859_1 and
 		GeoIP.GEOIP_CHARSET_UTF8 ( Boris Zentner )
 	* Add test_city_charset.py script showing howto use
