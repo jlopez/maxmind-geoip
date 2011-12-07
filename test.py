@@ -12,4 +12,5 @@ print gi.country_name_by_name("www.bundestag.de")
 print gi.country_code_by_addr("24.24.24.24")
 print gi.country_name_by_addr("24.24.24.24")
 print gi.range_by_ip("68.180.206.184")
+print GeoIP.lib_version()
 
